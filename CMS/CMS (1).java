@@ -207,7 +207,7 @@ import java.util.ArrayList;
         }
     }
 
-    private class BackButtonListener implements ActionListener {
+    class BackButtonListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             cardLayout.show(cardPanel, "Contact List");
         }

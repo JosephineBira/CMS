@@ -19,10 +19,12 @@ public class Contact {
     }
 
     public String getEmail() {
+
         return email;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 

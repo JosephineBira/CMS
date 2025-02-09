@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
 
-public class CMS {
+ class CMS {
 
     private ArrayList<Contact> contacts;
     private JFrame mainframe;

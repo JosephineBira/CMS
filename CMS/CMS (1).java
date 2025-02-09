@@ -126,7 +126,7 @@ import java.util.ArrayList;
         contactDetailsPanel.add(detailsPanel, BorderLayout.CENTER);
 
         backButton = new JButton("Back to List");
-        backButton.setFont(new Font("Ariel", Font.BOLD, 30));
+        backButton.setFont(new Font("Georgia", Font.BOLD, 30));
         backButton.setFocusPainted(false);
         backButton.addActionListener(new BackButtonListener());
 

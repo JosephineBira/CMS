@@ -78,12 +78,12 @@ import java.util.ArrayList;
 
 
         addNewContactButton = new JButton("Add New Contact");
-        addNewContactButton.setBackground(new Color(130,,235));
+        addNewContactButton.setBackground(new Color(130,235));
         addNewContactButton.setFont(new Font("Arial", Font.BOLD, 30));
         addNewContactButton.setFocusPainted(false);
         addNewContactButton.addActionListener(new AddNewContactButtonListener());
         viewDetailsButton = new JButton("View Details");
-        viewDetailsButton.setBackground(new Color(135,128,235));
+        viewDetailsButton.setBackground(new Color(135,128,255));
         viewDetailsButton.setFont(new Font("Arial", Font.BOLD, 30));
         viewDetailsButton.setFocusPainted(false);
         viewDetailsButton.addActionListener(new ViewDetailsButtonListener());

@@ -157,7 +157,7 @@ import java.util.ArrayList;
 
         contactCreationFormPanel.add(OrderPanel,BorderLayout.CENTER);
 
-        saveContactButton = new JButton("Save Contact");
+        saveContactButton = new JButton("Save ");
         saveContactButton.setFont(new Font("Arial", Font.BOLD, 30));
         saveContactButton.setFocusPainted(false);
         saveContactButton.addActionListener(new SaveContactButtonListener());

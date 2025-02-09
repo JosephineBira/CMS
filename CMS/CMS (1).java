@@ -78,7 +78,7 @@ import java.util.ArrayList;
 
 
         addNewContactButton = new JButton("Add New Contact");
-        addNewContactButton.setBackground(new Color(130,255));
+        addNewContactButton.setBackground(new Color(130));
         addNewContactButton.setFont(new Font("Arial", Font.BOLD, 30));
         addNewContactButton.setFocusPainted(false);
         addNewContactButton.addActionListener(new AddNewContactButtonListener());

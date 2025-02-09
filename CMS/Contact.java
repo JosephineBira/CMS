@@ -10,6 +10,7 @@ public class Contact {
     }
 
     public String getName() {
+
         return name;
     }
 

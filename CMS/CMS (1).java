@@ -182,7 +182,6 @@ import java.util.ArrayList;
             listModel.addElement(contact.getName());
         }
     }
-
     private class AddNewContactButtonListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             nameField.setText("");

@@ -92,7 +92,7 @@ import java.util.ArrayList;
 
 
         JPanel buttonPanel = new JPanel();
-        buttonPanel.setBorder(BorderFactory.createEmptyBorder(30, 0, 30, 30));
+        (30, 0, 30, 30));
         buttonPanel.add(addNewContactButton);
         buttonPanel.add(viewDetailsButton);
         buttonPanel.add(deleteContactButton);
